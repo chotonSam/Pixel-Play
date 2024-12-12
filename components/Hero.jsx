@@ -9,7 +9,7 @@ export default function Hero({ dictionary }) {
     <main className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-center">
       <div className="lg:col-span-2">
         <h1
-          className={`text-4xl md:text-6xl font-bold mb-4 leading-[100px] ${play.className}`}
+          className={`text-4xl md:text-6xl font-bold mb-4 leading-tight ${play.className}`}
         >
           {dictionary.heroTitle}
         </h1>
