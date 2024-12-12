@@ -1,7 +1,7 @@
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import videos from "@/lib/video.json";
 import Hero from "./Hero";
-import VIdeoCard from "./VIdeoCard";
+import VideoCard from "./VideoCard";
 
 export default async function Landing({ lang }) {
   const dictionary = await getDictionary(lang);
@@ -23,7 +23,7 @@ export default async function Landing({ lang }) {
           {/* card start  */}
 
           {videos.map((video, index) => (
-            <VIdeoCard key={video.videoId} video={video} />
+            <VideoCard key={video.videoId} video={video} />
           ))}
 
           {/* card end  */}
