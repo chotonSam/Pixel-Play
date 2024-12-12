@@ -10,11 +10,11 @@ export default function Header({ dictionary }) {
           <div className="flex items-center space-x-1">
             {/* Logo Icon */}
             <div className="w-10 h-10 bg-color-purple flex items-center justify-center rounded-md">
-              <span className="text-white font-bold text-xl">P</span>
+              <span className="text-white font-bold text-3xl ">P</span>
             </div>
 
             {/* Logo Text */}
-            <h1 className="text-3xl font-bold text-white">
+            <h1 className={`text-3xl font-bold text-white `}>
               <span className="text-color-purple">Pixel</span>
               <span className="text-white">Play</span>
             </h1>

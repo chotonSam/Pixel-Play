@@ -1,16 +1,8 @@
-import { Play } from "next/font/google"; // Ensure you import the Play font if needed
-
-const play = Play({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 export default function Hero({ dictionary }) {
   return (
     <main className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-center">
       <div className="lg:col-span-2">
-        <h1
-          className={`text-4xl md:text-6xl font-bold mb-4 leading-tight ${play.className}`}
-        >
+        <h1 className={`text-4xl md:text-6xl font-bold mb-4 leading-tight `}>
           {dictionary.heroTitle}
         </h1>
         <p className="text-gray-400 mb-8">{dictionary.heroSlogan}</p>
