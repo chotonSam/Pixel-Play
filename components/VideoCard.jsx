@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function VIdeoCard({ video }) {
+export default function VideoCard({ video }) {
   return (
     <Link href={`/videos/${video.videoId}`}>
       <div className="rounded-lg overflow-hidden bg-color-gray">
