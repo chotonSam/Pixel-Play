@@ -60,8 +60,8 @@ export default function Header({ dictionary }) {
           src="/assets/avatar.png"
           alt="User Avatar"
           class="w-8 h-8 rounded-full"
-          width={6}
-          height={6}
+          width={50}
+          height={50}
         />
         <LanguageSwitcher />
       </div>
